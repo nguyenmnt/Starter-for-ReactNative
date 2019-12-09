@@ -1,0 +1,29 @@
+{
+  "name": "MyTestApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "node_modules/.bin/mocha --require @babel/register --require react-native-mock-render/mock __tests__/**.test.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.5",
+    "@babel/runtime": "7.7.6",
+    "@react-native-community/eslint-config": "0.0.5",
+    "chai": "^4.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint": "6.7.2",
+    "metro-react-native-babel-preset": "0.56.3",
+    "mocha": "^6.2.2",
+    "react-native-mock-render": "^0.1.7",
+    "sinon": "^7.5.0"
+  }
+}
